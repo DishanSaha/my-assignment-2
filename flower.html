@@ -12,7 +12,7 @@
 
 <body>
     <header class="flex justify-between items-center max-w-[1140px] mx-auto px-3 pt-[30px] ">
-        <img src="assets/logo.png" alt="logo" class="sm:w-auto ">
+        <img src="assets/logo.png" alt="logo" class=" sm:w-auto ">
         <nav class="flex gap-8">
             <ul class="hidden md:flex justify-between items-center gap-12 list-none">
 
@@ -167,34 +167,45 @@
             of fresh.</p>
     </div>
 
-    <div class="lg:max-w-[1140px] max-w-[361px] mx-auto mt-32 ">
-        <div class="lg:flex gap-6">
+    <div class="lg:max-w-[1140px] max-w-[361px] mx-auto mt-13 lg:mt-32 px-3">
+        <div class="lg:flex lg:flex-row flex flex-col gap-8 lg:gap-6">
             <div class="flex flex-col gap-6">
 
-                <div
-                    class="flex flex-col justify-center items-center rounded-[14px] brightness-50 bg-[url(assets/deal-bloom.png)] w-[367px] h-[201px]">
-                    
+                <div class="relative flex flex-col justify-center items-center lg:w-[367px] h-[201px]">
+
+                    <img class="brightness-50 rounded-[14px]" src="assets/deal-bloom.png" alt="">
+                    <div class="absolute text-center">
                         <h2 class="noto font-bold text-[20px] text-[#FFFFFF]">60% Off | Bloom Plant</h2>
-                        <h3 class="underline underline-offset-4 inter font-semibold text-[16px] text-[#FFFFFF]">Shop Now
+                        <h3 class="underline underline-offset-4 inter font-semibold text-[16px] text-[#FFFFFF]">
+                            Shop Now
                         </h3>
-                
+                    </div>
+
+
                 </div>
 
-                <div
-                    class="flex flex-col justify-center items-center rounded-[14px] brightness-50 bg-[url(assets/deal-ana.png)] w-[367px] h-[201px]">
-                    <h2 class="noto font-bold text-[20px] text-[#FFFFFF]">30% Off | Ana Plant</h2>
-                    <h3 class="underline underline-offset-4 inter font-semibold text-[16px] text-[#FFFFFF]">Shop Now
-                    </h3>
+                <div class="relative flex flex-col justify-center items-center  lg:w-[367px] h-[201px]">
+                    <img class="brightness-50 rounded-[14px]" src="assets/deal-ana.png" alt="">
+                    <div class="absolute text-center">
+                        <h2 class="noto font-bold text-[20px] text-[#FFFFFF]">30% Off | Ana Plant</h2>
+                        <h3 class="underline underline-offset-4 inter font-semibold text-[16px] text-[#FFFFFF]">Shop Now
+                        </h3>
+                    </div>
                 </div>
             </div>
             <div
-                class="flex flex-col justify-center items-center rounded-[22px] brightness-50 bg-[url(assets/deal-zabo.png)] w-[367px] h-[201px] lg:w-[753px] lg:h-[423px]">
-                <h2 class="noto font-bold lg:text-[40px] text-[20px] text-[#FFFFFF]">25% Off | Zabo Plant</h2>
-                <h3 class="underline underline-offset-8 inter font-semibold lg:text-[28px] text-[#FFFFFF] ">Shop Now</h3>
+                class="relative flex flex-col justify-center items-center lg:w-[367px] h-[201px] lg:w-[753px] lg:h-[423px]">
+                <img class=" rounded-[22px] brightness-50 h-[426px]" src="assets/deal-zabo.png" alt="">
+                <div class="absolute text-center">
+                    <h2 class="noto font-bold lg:text-[40px] text-[20px] text-[#FFFFFF]">25% Off | Zabo Plant</h2>
+                    <h3 class="underline underline-offset-8 inter font-semibold lg:text-[28px] text-[#FFFFFF] ">Shop Now
+                    </h3>
+                </div>
             </div>
 
         </div>
     </div>
+
     <div
         class="flex flex-col justify-center items-center bg-[url(assets/news-letter-bg.png)] bg-center bg-cover h-[275px] lg:h-[533px] mt-[120px]">
         <h1 class="noto font-bold text-xl lg:text-6xl text-[#FFFFFF] mb-10">Join the colorful Bunch</h1>
@@ -202,7 +213,7 @@
             <input type="email" name="email"
                 class="w-full inter text-[16px] text-[#000000]/70 py-[15.5px] pl-[20px] bg-[#FFFFFF]"
                 placeholder="Write email">
-            <button class="inter text-[16px] font-semibold text-[#FFFFFF] bg-[#E95A08] px-1.5 py-4">Subscribe</button>
+            <button class="inter text-[16px] font-semibold text-[#FFFFFF] bg-[#E95A08] px-13 py-4">Subscribe</button>
         </div>
     </div>
 
